@@ -21,7 +21,22 @@ jobs:
           node-version: 18.x
       - run: npm install
       
-      
+  update_version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Update Version
+        run: |
+          npm version patch
+          git push --follow-tags
       
   deploy:
     runs-on: ubuntu-latest
