@@ -10,6 +10,11 @@
     "categories": [
         "Other"
     ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yogintecholution/sample-app-mode-ext"
+
+    },
     "activationEvents": [],
     "main": "./out/extension.js",
     "contributes": {
