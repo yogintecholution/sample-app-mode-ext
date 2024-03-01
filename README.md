@@ -1,1 +1,1 @@
-Test Extension deployment on OPEN vsx registry Test 1
+Test Extension deployment on OPEN vsx registry Test 1 Test 2
