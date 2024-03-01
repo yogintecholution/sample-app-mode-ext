@@ -3,7 +3,7 @@
   "displayName": "App Mod Copilot Sample",
   "description": "Test Sample Extention on Open Vs[Cx",
   "publisher": "yogin",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "icon": "./images/aigpt.jpg",
   "engines": {
     "vscode": "^1.52.0"
